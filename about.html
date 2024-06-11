@@ -18,12 +18,17 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/warpper.css">
+    
+
 
     <!-- CSS Skin File -->
     <link href="css/skins/green.css" rel="stylesheet">
 
     <!-- Modernizr JS File -->
     <script src="js/modernizr.custom.js"></script>
+    <script src="js/warpper.js"></script>
+    <script src="https://kit.fontawesome.com/4081fb6ebe.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="about light">
@@ -55,7 +60,7 @@
                     <h2>Contact</h2>
                 </a>
             </li>
-           
+
         </ul>
         <!-- Fixed Navigation Ends -->
         <!-- Mobile Menu Starts -->
@@ -70,7 +75,7 @@
                     <li class="active"><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
                     <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
                     <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                   
+
                 </ul>
             </div>
         </nav>
@@ -136,7 +141,9 @@
                             <a class="button" href="img/projects/navigation/cv_Achraf_BEN_Abdallah - EN.pdf"
                                 target="_blank">
                                 <span class="button-text">Download CV</span>
-                                <span class="button-icon fa fa-download"></span>
+                                <span class="button-icon"><i class="fa fa-download"></i></span>
+
+                            
                             </a>
                         </div>
                     </div>
@@ -185,61 +192,98 @@
                         class="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">
                         My Skills</h1>
                 </div>
-                <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                 <div>
-                    <img src="img/projects/navigation/logo-2582748_1280.png" alt="" style="width: 250px; height: 250px; ">
-                 </div>
-                    <h5 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">html</h5>
-                </div>
-                <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                    <div>
-                        <img src="img/projects/navigation/js.png" alt="" style="width: 250px; height: 250px; ">
-                     </div>
-                    <h5 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">javascript</h5>
-                </div>
-                <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                    <div>
-                        <img src="img/projects/navigation/azure.png" alt="" style="width: 250px; height: 250px; ">
-                     </div>
-                    <h5 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Azure</h5>
-                </div>
-                <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                    <div>
-                        <img src="img/projects/navigation/Jenkins.png" alt="" style="width: 250px; height: 250px; ">
-                     </div>
-                    <h5 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">jenkins</h5>
-                </div>
-                <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                    <div>
-                        <img src="img/projects/navigation/actions.png" alt="" style="width: 250px; height: 250px; ">
-                     </div>
-                    <h5 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">github actions</h5>
-                </div>
-                <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                    <div>
-                        <img src="img/projects/navigation/vert.png" alt="" style="width: 250px; height: 250px; ">
-                     </div>
-                    <h5 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Vertualisation</h5>
-                </div>
-                <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                    <div>
-                        <img src="img/projects/navigation/lunix.png" alt="" style="width: 260px; height: 250px; ">
-                     </div>
-                    <h5 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Administrastion lunix</h5>
-                </div>
-                <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                    <div>
-                        <img src="img/projects/navigation/docker.png" alt="" style="width: 250px; height: 250px; ">
-                     </div>
-                    <h5 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Docker</h5>
-                </div>
-                <div class="col-6 col-md-3 mb-3 mb-sm-5">
-                    <div>
-                        <img src="img/projects/navigation/flutter.png" alt="" style="width: 250px; height: 250px; ">
-                     </div>
-                    <h5 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Flutter</h5>
-                </div>
                 
+                <div class="wrapper">
+                    
+                 <i id="left" class="fa-solid fas fa-angle-left"></i>    
+                    <ul class="carousel">
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/azure.png"
+                                    alt="" draggable="false"> </div>
+                            <span>Azure</span>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/Jenkins.png"
+                                    alt="" draggable="false"> </div>
+                            <span>Jenkins</span>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/docker.png"
+                                    alt="" draggable="false"> </div>
+                            <span>Docker</span>
+                            
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/actions.png"
+                                    alt="" draggable="false"> </div>
+                            <span>GitHub Actions</span>
+                            
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/flutter.png"
+                                    alt="" draggable="false"> </div>
+                            <span>Flutter</span>
+                            
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/firebase.png"
+                                    alt="" draggable="false"> </div>
+                            <span>Firebase</span>
+                            
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/terraform.svg"
+                                    alt="" draggable="false"> </div>
+                            <span>Terraform</span>
+                            
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/lunix.png"
+                                    alt="" draggable="false"> </div>
+                            <span>Administration linux</span>
+                            
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/vert.png"
+                                    alt="" draggable="false"> </div>
+                            <span>virtualization</span>
+                            
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/logo-2582748_1280.png"
+                                    alt="" draggable="false"> </div>
+                            <span>HTML</span>
+                            
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/css.png"
+                                    alt="" draggable="false"> </div>
+                            <span>CSS</span>
+                            
+                        </li>
+                        <li class="card">
+                            <div class="img"><img
+                                    src="img/projects/navigation/js.png"
+                                    alt="" draggable="false"> </div>
+                            <span>JavaScript</span>
+                            
+                        </li>
+                       
+                    </ul>
+                    <i id="right" class="fa-solid fas fa-angle-right"></i>
+                </div>
+
             </div>
             <!-- Skills Ends -->
             <hr class="separator mt-1">
